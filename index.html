@@ -13,15 +13,54 @@
     <h1>Below is the HTML form information :- </h1>
     <div>
         <form action="">
-            <label for="text">First Name :- </label>
-            <input type="text" value="Enter Your Name"> <br><br>
-            <label for="">Choose a Car :- </label>
-            <select name="cars" id="cars">
-                <option value="Volbo">Volbo</option>
-                <option value="Sabb">Sabb</option>
-                <option value="Audi">Audi</option>
-            </select> <br> <br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <fieldset>
+                <legend>User personal information</legend><br><br>
+                <label for="iframe">Enter your first name :- </label><br><br>
+                <input type="text" name="text" id="text" placeholder="Enter your first name"><br><br>
+
+                <label for="lframe">Enter your second name :- </label><br><br>
+                <input type="text" name="text" id="text" placeholder="Enter your last name"><br><br>
+
+                <label for="iframe">Enter your Email :- </label><br><br>
+                <input type="text" name="text" id="text" placeholder="Enter your email"><br><br>
+
+                <label for="iframe">Enter your password :- </label><br><br>
+                <input type="password" name="password" id="password"><br><br>
+
+                <label for="iframe">Confirm your password :- </label><br><br>
+                <input type="password" name="" id=""><br><br>
+
+                <fieldset>
+                    <legend>Extra Details</legend>
+                    <label for="iframe">Enter your gender :- </label><br><br>
+                <input type="radio" name="" id="">Male
+                <input type="radio" name="" id="">Female
+                <input type="radio" name="" id="">Others <br><br>
+
+                <label for="iframe">Enter your date of birth :- </label><br><br>
+                <input type="date" name="" id=""><br><br>
+
+                <label for="iframe">Enter Address :- </label><br><br>
+                <textarea name="" id="" cols="25" rows="5"></textarea><br><br>
+                </fieldset><br>
+
+                <label for="">Position Available :- </label><br><br>
+                <input type="radio" name="" id="">Junior Developer <br><br>
+                <input type="radio" name="" id="">Mid-level Developer <br><br>
+                <input type="radio" name="" id="">Senior Developer <br><br>
+
+                <label for="">Programming Languages :- </label><br><br>
+                <input type="range" name="" id="">Java <br><br>
+                <input type="range" name="" id="">Javascript <br><br>
+                <input type="range" name="" id="">Python <br><br>
+
+                <label for="">Our Courses :- </label>
+                
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+
         </form>
     </div>
 </body>
